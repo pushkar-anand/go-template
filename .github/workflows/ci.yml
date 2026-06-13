@@ -1,0 +1,14 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  ci:
+    uses: pushkar-anand/.github/.github/workflows/go-ci.yml@main
+    with:
+      build-tags: "" # e.g. "goolm" — set per project
+      run-lint: false

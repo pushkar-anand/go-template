@@ -1,0 +1,32 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Coverage
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Dependency directories
+# vendor/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Environment
+.env
+
+# Build output
+bin/
+
+# Editor/IDE — uncomment whichever you use
+# .idea/
+# .vscode/
