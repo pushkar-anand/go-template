@@ -21,12 +21,22 @@ profile.cov
 go.work
 go.work.sum
 
-# Environment
+# Environment and local config (REPO_NAME.example.yaml is the committed template)
 .env
+REPO_NAME.yaml
 
 # Build output
 bin/
 
-# Editor/IDE — uncomment whichever you use
-# .idea/
-# .vscode/
+# SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+# Editor/IDE
+.idea/
+.vscode/
+
+# Agent scratch
+.claude/
+.junie/
